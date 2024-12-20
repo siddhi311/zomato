@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Raleway",sans-serif;
+}
+header{
+    background-image: url("bg.jpg");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.vertical-line{
+    border-left: 1px solid black;
+    height: 18px;
+    margin-left: 15px;
+}
+
+nav{
+    height:72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#getApp span{
+    color:#fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#menu ul{
+    display: flex;
+    gap: 50px;
+    color:#fff;
+    font-size: 18px;
+}
+
+#logoTagSearch{
+    height: calc(60vh - 72px);
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logoTagSearch #logo img{
+    width: 300px;
+    
+}
+
+#logoTagSearch #tagLine{
+    margin-top: 30px;
+}
+
+#logoTagSearch #tagLine h1{
+    color:#fff;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+#searchContainer{
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 15px 25px;
+    width: 50%;
+    border-radius: 10px;
+    display: flex;
+}
+
+#seachContainer #location{
+    display: flex;
+    align-items: center;
+    border-right: 2px solid #cfcfcf;
+    padding-right: 10px;
+}
+
+#searchContainer input{
+    border:none;
+}
+
+#searchContainer #restraunt{
+    margin-left: 20px;
+}
+
+#searchContainer #restraunt span{
+    color:#c9c8c8;
+}
